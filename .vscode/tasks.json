@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "PyInstaller",
+            "type": "shell",
+            "command": "pyinstaller",
+            "args": [
+                "ImageTo1FrameVideo.py",
+                "--onefile"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
